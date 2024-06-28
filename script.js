@@ -8,7 +8,6 @@ async function main(){
             defaultViewport : false,
             args : ["--start-maximized"]
         });
-
         let pages = await browser.pages();
         tab = pages[0];
         await tab.goto("https://internshala.com/");
